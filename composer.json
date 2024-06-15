@@ -1,0 +1,30 @@
+{
+    "name": "exam/oms-manon",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "manon",
+            "email": "fanuel.manon@sirclo.com"
+        }
+    ],
+    "description": "exam oms",
+    "homepage": "https://github.com/FanuelManonSembawa/exam-oms-manon-01",
+    "keywords": [
+        "magento",
+        "magento2"
+    ],
+    "minimum-stability": "dev",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "src/module-icube-get-product/registration.php"
+        ],
+        "psr-4": {
+            "Icube\\ManonProductGraphql\\": "src/module-icube-get-product"
+        }
+    }
+}
